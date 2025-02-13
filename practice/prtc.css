@@ -1,0 +1,29 @@
+body {
+    background-color: #800080;
+   
+}
+
+
+.container {
+    display: inline-block;
+}
+.langga{ 
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'poppins' sans-serif;
+    font-size: larger;
+    animation: 
+    typing 2s steps(100),
+    cursor .4s step-end infinite alternate;
+  
+
+    
+} 
+
+@keyframes cursor {
+    100% { border-color: transparent;}
+}
+
+
+
